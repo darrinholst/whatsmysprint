@@ -12,4 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require json2
+//= require handlebars.runtime
+//= require underscore
+//= require backbone
+//= require backbone/app
+
