@@ -1,5 +1,5 @@
 class APP.Views.RootView extends Backbone.View
-  FLOWER_DELAY: 2000
+  FLOWER_DELAY: 1500
 
   render: ->
     @show("loading")
