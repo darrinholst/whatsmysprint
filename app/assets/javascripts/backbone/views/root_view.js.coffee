@@ -13,15 +13,5 @@ class APP.Views.RootView extends Backbone.View
 
   show: (view, context = {}) =>
     $(@el).html(JST["backbone/templates/#{view}"](context))
-
-    drop = @$(".drop")
-
-    bounceIt = ->
-      drop.addClass("bounce")
-
-    if drop.length
-      drop.addClass("dropped")
-      _.delay(bounceIt, 300)
-
-
+          .find('.bro').addClass('bounce')
 
