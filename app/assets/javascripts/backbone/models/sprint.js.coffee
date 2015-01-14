@@ -2,14 +2,11 @@ class APP.Models.Sprint extends Backbone.Model
   url: '/current-sprint'
 
   name: =>
-    @get("name")
+    @get('name')
 
   starts: =>
-    @_formatDate(new Date(@get("start")))
+    @get('starts')
 
   ends: =>
-    @_formatDate(new Date(@get("end")))
-
-  _formatDate: (date) ->
-    "#{date.getMonth() + 1}/#{date.getDate()}"
+    @get('ends')
 

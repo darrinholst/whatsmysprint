@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby -w
+
+exec "bundle exec rails c"
+
